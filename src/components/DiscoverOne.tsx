@@ -73,7 +73,7 @@ const DiscoverOne: FC = () => {
                 {/* slide 1 */}
                 <div className='gallery-two-wrapper swiper-slide'>
                   <div className='gallery-two-thumb position-relative z-1'>
-                    <Link href='/gallery'>
+                    <Link href='#gallery'>
                       <Image
                         width={510}
                         height={441}
@@ -86,7 +86,7 @@ const DiscoverOne: FC = () => {
                     <div className='gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7'>
                       <div className='gallery-two-content-inner'>
                         <h4 className='tw-text-2xl fw-normal mb-0'>
-                          <Link href='/gallery'>
+                          <Link href='#gallery'>
                             {" "}
                             Receptions<br />
                           </Link>
@@ -95,7 +95,7 @@ const DiscoverOne: FC = () => {
                       <div>
                         <Link
                           className='tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading'
-                          href='/gallery'
+                          href='#gallery'
                         >
                           <i className='ph ph-arrow-up-right' />
                         </Link>
@@ -106,7 +106,7 @@ const DiscoverOne: FC = () => {
                 {/* slide 2 */}
                 <div className='gallery-two-wrapper swiper-slide'>
                   <div className='gallery-two-thumb position-relative z-1'>
-                    <Link href='/gallery'>
+                    <Link href='#gallery'>
                       <Image
                         width={509}
                         height={569}
@@ -119,7 +119,7 @@ const DiscoverOne: FC = () => {
                     <div className='gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7'>
                       <div className='gallery-two-content-inner'>
                         <h4 className='tw-text-2xl fw-normal mb-0'>
-                          <Link href='/gallery'>
+                          <Link href='#gallery'>
                             {" "}
                             King Size Bed<br />
                           </Link>
@@ -128,7 +128,7 @@ const DiscoverOne: FC = () => {
                       <div>
                         <Link
                           className='tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading'
-                          href='/gallery'
+                          href='#gallery'
                         >
                           <i className='ph ph-arrow-up-right' />
                         </Link>
@@ -139,7 +139,7 @@ const DiscoverOne: FC = () => {
                 {/* slide 3 */}
                 <div className='gallery-two-wrapper swiper-slide'>
                   <div className='gallery-two-thumb position-relative z-1'>
-                    <Link href='/gallery'>
+                    <Link href='#gallery'>
                       <Image
                         width={510}
                         height={441}
@@ -152,7 +152,7 @@ const DiscoverOne: FC = () => {
                     <div className='gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7'>
                       <div className='gallery-two-content-inner'>
                         <h4 className='tw-text-2xl fw-normal mb-0'>
-                          <Link href='/gallery'>
+                          <Link href='#gallery'>
                             {" "}
                             Interior<br />
                           </Link>
@@ -161,7 +161,7 @@ const DiscoverOne: FC = () => {
                       <div>
                         <Link
                           className='tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading'
-                          href='/gallery'
+                          href='#gallery'
                         >
                           <i className='ph ph-arrow-up-right' />
                         </Link>
@@ -172,7 +172,7 @@ const DiscoverOne: FC = () => {
                 {/* slide 4 */}
                 <div className='gallery-two-wrapper swiper-slide'>
                   <div className='gallery-two-thumb position-relative z-1'>
-                    <Link href='/gallery'>
+                    <Link href='#gallery'>
                       <Image
                         width={510}
                         height={568}
@@ -185,7 +185,7 @@ const DiscoverOne: FC = () => {
                     <div className='gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7'>
                       <div className='gallery-two-content-inner'>
                         <h4 className='tw-text-2xl fw-normal mb-0'>
-                          <Link href='/gallery'>
+                          <Link href='#gallery'>
                             {" "}
                             Sitting Area <br />
                           </Link>
@@ -194,7 +194,7 @@ const DiscoverOne: FC = () => {
                       <div>
                         <Link
                           className='tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading'
-                          href='/gallery'
+                          href='#gallery'
                         >
                           <i className='ph ph-arrow-up-right' />
                         </Link>
@@ -205,7 +205,7 @@ const DiscoverOne: FC = () => {
                 {/* slide 5 */}
                 <div className='gallery-two-wrapper swiper-slide'>
                   <div className='gallery-two-thumb position-relative z-1'>
-                    <Link href='/gallery'>
+                    <Link href='#gallery'>
                       <Image
                         width={510}
                         height={441}
@@ -218,7 +218,7 @@ const DiscoverOne: FC = () => {
                     <div className='gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7'>
                       <div className='gallery-two-content-inner'>
                         <h4 className='tw-text-2xl fw-normal mb-0'>
-                          <Link href='/gallery'>
+                          <Link href='#gallery'>
                             {" "}
                             Exterior View
                           </Link>
@@ -227,7 +227,7 @@ const DiscoverOne: FC = () => {
                       <div>
                         <Link
                           className='tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading'
-                          href='/gallery'
+                          href='#gallery'
                         >
                           <i className='ph ph-arrow-up-right' />
                         </Link>
@@ -238,7 +238,7 @@ const DiscoverOne: FC = () => {
                 {/* slide 6 */}
                 <div className='gallery-two-wrapper swiper-slide'>
                   <div className='gallery-two-thumb position-relative z-1'>
-                    <Link href='/gallery'>
+                    <Link href='#gallery'>
                       <Image
                         width={509}
                         height={569}
@@ -251,7 +251,7 @@ const DiscoverOne: FC = () => {
                     <div className='gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7'>
                       <div className='gallery-two-content-inner'>
                         <h4 className='tw-text-2xl fw-normal mb-0'>
-                          <Link href='/gallery'>
+                          <Link href='#gallery'>
                             {" "}
                             Sitting Area
                           </Link>
@@ -260,7 +260,7 @@ const DiscoverOne: FC = () => {
                       <div>
                         <Link
                           className='tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading'
-                          href='/gallery'
+                          href='#gallery'
                         >
                           <i className='ph ph-arrow-up-right' />
                         </Link>
@@ -271,7 +271,7 @@ const DiscoverOne: FC = () => {
                 {/* slide 1 */}
                 <div className='gallery-two-wrapper swiper-slide'>
                   <div className='gallery-two-thumb position-relative z-1'>
-                    <Link href='/gallery'>
+                    <Link href='#gallery'>
                       <Image
                         width={510}
                         height={441}
@@ -284,7 +284,7 @@ const DiscoverOne: FC = () => {
                     <div className='gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7'>
                       <div className='gallery-two-content-inner'>
                         <h4 className='tw-text-2xl fw-normal mb-0'>
-                          <Link href='/gallery'>
+                          <Link href='#gallery'>
                             {" "}
                             Receptions<br />
                           </Link>
@@ -293,7 +293,7 @@ const DiscoverOne: FC = () => {
                       <div>
                         <Link
                           className='tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading'
-                          href='/gallery'
+                          href='#gallery'
                         >
                           <i className='ph ph-arrow-up-right' />
                         </Link>
@@ -304,7 +304,7 @@ const DiscoverOne: FC = () => {
                 {/* slide 2 */}
                 <div className='gallery-two-wrapper swiper-slide'>
                   <div className='gallery-two-thumb position-relative z-1'>
-                    <Link href='/gallery'>
+                    <Link href='#gallery'>
                       <Image
                         width={509}
                         height={569}
@@ -317,7 +317,7 @@ const DiscoverOne: FC = () => {
                     <div className='gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7'>
                       <div className='gallery-two-content-inner'>
                         <h4 className='tw-text-2xl fw-normal mb-0'>
-                          <Link href='/gallery'>
+                          <Link href='#gallery'>
                             {" "}
                             King Size Bed<br />
                           </Link>
@@ -326,7 +326,7 @@ const DiscoverOne: FC = () => {
                       <div>
                         <Link
                           className='tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading'
-                          href='/gallery'
+                          href='#gallery'
                         >
                           <i className='ph ph-arrow-up-right' />
                         </Link>
@@ -339,7 +339,7 @@ const DiscoverOne: FC = () => {
                 {/* slide 3 */}
                 <div className='gallery-two-wrapper swiper-slide'>
                   <div className='gallery-two-thumb position-relative z-1'>
-                    <Link href='/gallery'>
+                    <Link href='#gallery'>
                       <Image
                         width={510}
                         height={441}
@@ -352,7 +352,7 @@ const DiscoverOne: FC = () => {
                     <div className='gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7'>
                       <div className='gallery-two-content-inner'>
                         <h4 className='tw-text-2xl fw-normal mb-0'>
-                          <Link href='/gallery'>
+                          <Link href='#gallery'>
                             {" "}
                             Interior<br />
                           </Link>
@@ -361,7 +361,7 @@ const DiscoverOne: FC = () => {
                       <div>
                         <Link
                           className='tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading'
-                          href='/gallery'
+                          href='#gallery'
                         >
                           <i className='ph ph-arrow-up-right' />
                         </Link>
@@ -372,7 +372,7 @@ const DiscoverOne: FC = () => {
                 {/* slide 4 */}
                 <div className='gallery-two-wrapper swiper-slide'>
                   <div className='gallery-two-thumb position-relative z-1'>
-                    <Link href='/gallery'>
+                    <Link href='#gallery'>
                       <Image
                         width={510}
                         height={568}
@@ -385,7 +385,7 @@ const DiscoverOne: FC = () => {
                     <div className='gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7'>
                       <div className='gallery-two-content-inner'>
                         <h4 className='tw-text-2xl fw-normal mb-0'>
-                          <Link href='/gallery'>
+                          <Link href='#gallery'>
                             {" "}
                             Sitting Area <br />
                           </Link>
@@ -394,7 +394,7 @@ const DiscoverOne: FC = () => {
                       <div>
                         <Link
                           className='tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading'
-                          href='/gallery'
+                          href='#gallery'
                         >
                           <i className='ph ph-arrow-up-right' />
                         </Link>
@@ -405,7 +405,7 @@ const DiscoverOne: FC = () => {
                 {/* slide 5 */}
                 <div className='gallery-two-wrapper swiper-slide'>
                   <div className='gallery-two-thumb position-relative z-1'>
-                    <Link href='/gallery'>
+                    <Link href='#gallery'>
                       <Image
                         width={510}
                         height={441}
@@ -418,7 +418,7 @@ const DiscoverOne: FC = () => {
                     <div className='gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7'>
                       <div className='gallery-two-content-inner'>
                         <h4 className='tw-text-2xl fw-normal mb-0'>
-                          <Link href='/gallery'>
+                          <Link href='#gallery'>
                             {" "}
                             Exterior View
                           </Link>
@@ -427,7 +427,7 @@ const DiscoverOne: FC = () => {
                       <div>
                         <Link
                           className='tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading'
-                          href='/gallery'
+                          href='#gallery'
                         >
                           <i className='ph ph-arrow-up-right' />
                         </Link>
@@ -438,7 +438,7 @@ const DiscoverOne: FC = () => {
                 {/* slide 6 */}
                 <div className='gallery-two-wrapper swiper-slide'>
                   <div className='gallery-two-thumb position-relative z-1'>
-                    <Link href='/gallery'>
+                    <Link href='#gallery'>
                       <Image
                         width={509}
                         height={569}
@@ -451,7 +451,7 @@ const DiscoverOne: FC = () => {
                     <div className='gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7'>
                       <div className='gallery-two-content-inner'>
                         <h4 className='tw-text-2xl fw-normal mb-0'>
-                          <Link href='/gallery'>
+                          <Link href='#gallery'>
                             {" "}
                             Sitting Area
                           </Link>
@@ -460,7 +460,7 @@ const DiscoverOne: FC = () => {
                       <div>
                         <Link
                           className='tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading'
-                          href='/gallery'
+                          href='#gallery'
                         >
                           <i className='ph ph-arrow-up-right' />
                         </Link>

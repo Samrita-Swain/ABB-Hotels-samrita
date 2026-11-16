@@ -76,7 +76,7 @@ const ServicesCard: FC = () => {
                                         <h4 className='service-ip-title tw-transition tw-text-2xl tw-mb-4'>
                                             <Link
                                                 className='hover-text-main-600'
-                                                href='/service-details'
+                                                href='#'
                                             >
                                                 {amenity.title}
                                             </Link>

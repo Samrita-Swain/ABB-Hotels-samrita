@@ -10,42 +10,62 @@ export interface MenuItem {
 }
 
 export const menuData: MenuItem[] = [
+  // {
+  //   label: "Home",
+  //   subMenu: [
+  //     { label: "Home One", link: "/" },
+  //     { label: "Home Two", link: "/index-2" },
+  //     { label: "Home Three", link: "/index-3" },
+  //     { label: "Home Four", link: "/index-4" },
+  //   ],
+  // },
+  // {
+  //   label: "Pages",
+  //   subMenu: [
+  //     { label: "About Us", link: "/about" },
+  //     { label: "Service", link: "/service" },
+  //     { label: "Service Details", link: "/service-details" },
+  //     { label: "Gallery", link: "/gallery" },
+  //     { label: "Pricing", link: "/pricing" },
+  //   ],
+  // },
+  // {
+  //   label: "Room",
+  //   subMenu: [
+  //     { label: "Room", link: "/room" },
+  //     { label: "Room Details", link: "/room-details" },
+  //   ],
+  // },
+  // {
+  //   label: "Blog",
+  //   subMenu: [
+  //     { label: "Blog", link: "/blog" },
+  //     { label: "Blog Grid", link: "/blog-grid" },
+  //     { label: "Blog Details", link: "/blog-details" },
+  //   ],
+  // },
   {
     label: "Home",
-    subMenu: [
-      { label: "Home One", link: "/" },
-      { label: "Home Two", link: "/index-2" },
-      { label: "Home Three", link: "/index-3" },
-      { label: "Home Four", link: "/index-4" },
-    ],
+    link: "#home",
   },
   {
-    label: "Pages",
-    subMenu: [
-      { label: "About Us", link: "/about" },
-      { label: "Service", link: "/service" },
-      { label: "Service Details", link: "/service-details" },
-      { label: "Gallery", link: "/gallery" },
-      { label: "Pricing", link: "/pricing" },
-    ],
+    label: "About",
+    link: "#about",
   },
   {
-    label: "Room",
-    subMenu: [
-      { label: "Room", link: "/room" },
-      { label: "Room Details", link: "/room-details" },
-    ],
+    label: "Services",
+    link: "#service",
   },
   {
-    label: "Blog",
-    subMenu: [
-      { label: "Blog", link: "/blog" },
-      { label: "Blog Grid", link: "/blog-grid" },
-      { label: "Blog Details", link: "/blog-details" },
-    ],
+    label: "Gallery",
+    link: "#gallery",
+  },
+  {
+    label: "Accommodation",
+    link: "#accommodation",
   },
   {
     label: "Contact",
-    link: "/contact",
+    link: "#contact",
   },
 ];

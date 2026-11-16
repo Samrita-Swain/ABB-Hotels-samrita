@@ -76,7 +76,7 @@ const FooterOne: FC = () => {
                   <ul className='d-flex flex-column tw-gap-4'>
                     <li>
                       <Link
-                        href='#'
+                        href='#about'
                         className='text--white hover-text-main-600 hover-underline'
                       >
                         About Us
@@ -84,7 +84,7 @@ const FooterOne: FC = () => {
                     </li>
                     <li>
                       <Link
-                        href='#'
+                        href='#gallery'
                         className='text--white hover-text-main-600 hover-underline'
                       >
                         Elegant Gallery
@@ -92,7 +92,7 @@ const FooterOne: FC = () => {
                     </li>
                     <li>
                       <Link
-                        href='#'
+                        href='#service'
                         className='text--white hover-text-main-600 hover-underline'
                       >
                         Our Services
@@ -100,10 +100,10 @@ const FooterOne: FC = () => {
                     </li>
                     <li>
                       <Link
-                        href='#'
+                        href='#accommodation'
                         className='text--white hover-text-main-600 hover-underline'
                       >
-                        Contact Us
+                        Accommodation
                       </Link>
                     </li>
 
@@ -122,7 +122,7 @@ const FooterOne: FC = () => {
                   <ul className='d-flex flex-column tw-gap-4'>
                     <li>
                       <Link
-                        href='/contact'
+                        href='#'
                         className='text--white hover-text-main-600 hover-underline'
                       >
                         Privacy Policy
@@ -130,7 +130,7 @@ const FooterOne: FC = () => {
                     </li>
                     <li>
                       <Link
-                        href='/faq'
+                        href='#'
                         className='text--white hover-text-main-600 hover-underline'
                       >
                         Refund Policy
@@ -168,17 +168,17 @@ const FooterOne: FC = () => {
                   <ul className='d-flex flex-column tw-gap-4'>
 
                     <li>
-                      <Link href='/restaurant' className='text--white hover-text-main-600 hover-underline'>
+                      <Link href='#' className='text--white hover-text-main-600 hover-underline'>
                         Guest Care
                       </Link>
                     </li>
                     <li>
-                      <Link href='/room-service' className='text--white hover-text-main-600 hover-underline'>
+                      <Link href='#' className='text--white hover-text-main-600 hover-underline'>
                         24/7 Room Service
                       </Link>
                     </li>
                     <li className='mb-0'>
-                      <Link href='/guest-services' className='text--white hover-text-main-600 hover-underline'>
+                      <Link href='#' className='text--white hover-text-main-600 hover-underline'>
                         Guest Hospitality
                       </Link>
                     </li>
