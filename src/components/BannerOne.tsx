@@ -29,9 +29,9 @@ const BannerOne: FC = () => {
                 <div>
                   <Link
                     className='tw-btn-hover-white bg-main-600 tw-py-5 tw-px-12 text-heading font-heading d-inline-flex align-items-center tw-gap-3 tw-rounded-lg'
-                    href='#contact'
+                    href='https://abbhotels.bookingjini.in/'
                   >
-                    Enquiry for Booking{" "}
+                    Book Now{" "}
                     <span className='d-inline-block lh-1 tw-text-lg'>
                       <i className='ph ph-arrow-up-right' />
                     </span>
