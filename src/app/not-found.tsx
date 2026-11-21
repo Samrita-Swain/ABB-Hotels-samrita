@@ -1,12 +1,9 @@
-import HeaderTwo from "@/components/HeaderTwo";
-import FooterOne from "@/components/FooterOne";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function NotFound() {
   return (
     <>
-      <HeaderTwo />
 
       <main
         className='error-page d-flex align-items-center justify-content-center position-relative'
@@ -15,7 +12,7 @@ export default function NotFound() {
         {/* Background image */}
         <div className='error-bg position-absolute w-100 h-100 top-0 start-0'>
           <Image
-            src='/assets/images/thumbs/bg_404.png'
+            src='/assets/images/abb-hotel/interior/10.webp'
             fill
             style={{ objectFit: "cover" }}
             alt='404 Background'
@@ -42,7 +39,6 @@ export default function NotFound() {
         </div>
       </main>
 
-      <FooterOne />
     </>
   );
 }

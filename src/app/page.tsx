@@ -28,9 +28,9 @@ import ServicesCard from "@/components/ServicesCard";
 
 export const generateMetadata = async (): Promise<Metadata> => {
   return {
-    title: "ABB Hotel | Luxury Hotel in Bhubaneswar",
+    title: "Best Hotel in Patia, Bhubaneswar Near KIIT and Infocity - ABB Hotel",
     description:
-      "Experience comfort, elegance, and warm hospitality at ABB Hotel, Bhubaneswar. Discover premium rooms, modern amenities, and a memorable stay.",
+      "Stay at ABB Hotel in Patia, Bhubaneswar, near KIIT University and Infocity. Enjoy elegant rooms, modern amenities, warm hospitality and a comfortable stay for business or leisure.",
     icons: {
       icon: [
         { url: "/assets/images/abb-hotel/logo-golden.webp" },
