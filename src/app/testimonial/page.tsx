@@ -13,6 +13,10 @@ export const generateMetadata = async (): Promise<Metadata> => {
       "Testimonial | EliteStay - Hotel Booking Multi-Purpose Next Js Template",
     description:
       "EliteStay is a professional Next JS Template for Hotel Booking Multi-Purpose services. Clean design, responsive layout, and modern UI components included.",
+    robots: {
+      index: false,
+      follow: true,
+    },
     openGraph: {
       title: "Testimonial | EliteStay",
       description:

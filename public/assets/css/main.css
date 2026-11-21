@@ -4555,7 +4555,7 @@ input:focus, input:focus-visible {
     content: "";
     inset-inline-start: 0;
     inset-block-start: 0;
-    background-color: #000000bd;
+    /* background-color: #000000bd; */
     z-index: 999;
     transition: 0.2s linear;
     visibility: hidden;

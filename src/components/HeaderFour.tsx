@@ -35,17 +35,28 @@ const HeaderFour: FC = () => {
     };
   }, []);
 
+  useEffect(() => {
+    setActive(false);
+    setActiveIndex(null);
+  }, [pathname]);
+
   const handleToggle = (index: number) => {
     if (!isMobile) return;
 
     setActiveIndex(activeIndex === index ? null : index);
   };
 
+  const closeMobileMenu = () => {
+    setActive(false);
+    setActiveIndex(null);
+  };
+
   return (
     <>
-      <div className='overlay'></div>
+      <div className='overlay' onClick={closeMobileMenu}></div>
       <div
         className={`side-overlay ${active ? "active_side-overlay" : ""}`}
+        onClick={closeMobileMenu}
       ></div>
       <div className='header-top-three header-top-four border-0 d-none d-md-block'>
         <div className='container tw-container-1680-px'>
@@ -281,7 +292,7 @@ const HeaderFour: FC = () => {
         </button>
 
         <div className='mobile-menu__inner'>
-          <Link href='/' className='mobile-menu__logo'>
+          <Link href='/' className='mobile-menu__logo' onClick={closeMobileMenu}>
             <Image
               width={202}
               height={65}
@@ -303,6 +314,9 @@ const HeaderFour: FC = () => {
                   <Link
                     href={item.link ?? "#"}
                     className='nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100'
+                    onClick={() => {
+                      if (!item.subMenu) closeMobileMenu();
+                    }}
                   >
                     {item.label}
                   </Link>
@@ -323,6 +337,7 @@ const HeaderFour: FC = () => {
                           <Link
                             href={sub.link}
                             className='nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded'
+                            onClick={closeMobileMenu}
                           >
                             {sub.label}
                           </Link>
