@@ -10777,10 +10777,11 @@ input:focus, input:focus-visible {
   text-decoration: none;
   font-weight: 500;
   overflow-wrap: anywhere;
+  
 }
 
 .privacy-contact-box a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Tablet */
