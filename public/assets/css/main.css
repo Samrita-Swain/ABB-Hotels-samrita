@@ -10781,7 +10781,7 @@ input:focus, input:focus-visible {
 }
 
 .privacy-contact-box a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* Tablet */
