@@ -5,7 +5,7 @@ import AOSWrap from "@/helper/AOSWrap";
 import HeaderOne from "@/components/HeaderOne";
 import FooterOne from "@/components/FooterOne";
 import Link from "next/link";
-import BannerOne from "@/components/BannerOne";
+
 
 export const generateMetadata = async (): Promise<Metadata> => {
   return {
@@ -35,8 +35,7 @@ export default function PrivacyPolicy() {
       {/* Header */}
       <HeaderOne />
 
-      {/* BannerOne */}
-      <BannerOne />
+     
 
       {/* Privacy Policy Section */}
       <section className="privacy-policy-section section-padding">

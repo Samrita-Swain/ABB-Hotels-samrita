@@ -5,7 +5,7 @@ import AOSWrap from "@/helper/AOSWrap";
 import Preloader from "@/helper/Preloader";
 import HeaderOne from "@/components/HeaderOne";
 import FooterOne from "@/components/FooterOne";
-import BannerOne from "@/components/BannerOne";
+
 
 export const metadata: Metadata = {
   title: "Refund Policy | ABB Hotel Bhubaneswar",
@@ -26,8 +26,7 @@ const RefundPolicy = () => {
       <Preloader />
       <HeaderOne />
 
-       {/* BannerOne */}
-      <BannerOne />
+      
 
       <main className="privacy-policy-section">
         <div className="container">
